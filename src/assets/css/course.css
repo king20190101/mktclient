@@ -1,0 +1,64 @@
+.coursePage {
+    flex:1;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+/*courseHeader*/
+.courseHeader {
+    width: 100%;
+    height: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.4rem;
+    position:sticky;
+    top:0;
+    background-color:white;
+}
+.courseHeader>i {
+    margin-left: 0.3rem;
+    font-size: 0.5rem;
+}
+.courseSpantop {
+    font-weight: bolder;
+    margin-left: 1.1rem;
+}
+.courseSpanbutton {
+    margin-right: 0.3rem;
+    font-size: 0.34rem;
+}
+/*courseMainnav*/
+.courseMainnav {
+    width: 100%;
+    font-size: 0.34rem;
+}
+.courseContainer {
+    width: 100%;
+}
+.courseNav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-right i {
+    margin-left: 0.3rem;
+}
+.courseNavleft {
+    width: 20%;
+}
+.courseNavright {
+    width: 80%;
+    text-align: right;
+}
+.courseNavright {
+    margin-right: 0.3rem;
+}
+.courseNavright>span {
+    margin-right: 0.3rem;
+    font-size: 0.34rem;
+}
+/*默认最新红色，点击哪个哪个变红*/
+.active {
+    color: red;
+}

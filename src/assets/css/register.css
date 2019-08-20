@@ -1,0 +1,97 @@
+.RegisterHeader{
+    width: 92%;
+    height: 0.77rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+.RegisterHeader i{
+    font-size: 0.5rem;
+}
+.RegisterHeader span{
+    font-size: 0.4rem;
+    
+}
+.RegisterPhone{
+    width: 100%;
+    margin: 0.43rem 0;
+}
+.RegisterPhone .first{
+    display: flex;
+    width: 78%;
+    height: 0.9rem;
+    margin: 0 auto;
+    line-height: 0.9rem;
+    justify-content: space-around;
+}
+.RegisterPhone .box{
+  
+    width: 78%;
+    height: 0.9rem;
+    margin: 0 auto;
+    line-height: 0.9rem;
+   text-align: left;
+   
+   padding-left: 0.1rem;
+   font-size: 0.3rem;
+}
+.RegisterPhone .box input{
+   
+    border-bottom: 0.01rem solid #eaecee;
+    font-size: 0.3rem;
+    width: 4.72rem;
+    height: 0.8rem;
+}
+.RegisterPhone .first span{
+    font-size: 0.3rem
+}
+.RegisterPhone .first i{
+    color: #666c73;
+    line-height: 0.9rem;
+    font-size: 0.3rem
+}
+.RegisterPhone .first input{
+    border-bottom: 0.01rem solid #eaecee;
+    /* color: #b7bbbf; */
+    width: 4.62rem;
+    height: 0.8rem;
+    font-size: 0.3rem
+}
+.RegisterPhone .second{
+    width: 76%;
+    height: 1rem;
+    background-color: #b7bbbf;
+    margin: 0 auto;
+    margin-top: 0.6rem;
+    border-radius: 0.1rem 0.1rem 0.1rem 0.1rem;
+}
+.RegisterPhone .second p{
+    line-height: 1rem;
+    text-align: center;
+    color: #fff;
+    font-size: 0.3rem
+}
+.RegisterPhone .third{
+    width: 80%;
+    height: 0.36;
+    margin: 0 auto;
+    margin-top: 0.54rem;
+    text-align: center;
+    font-size: 0.25rem
+}
+.RegisterPhone .third i{
+    color: #2abbff;
+}
+.RegisterPhone .third span{
+    color: #6e747a;
+}
+.RegisterTittle{
+    width: 100%;
+    height: 0.9rem;
+}
+.RegisterTittle p{
+    text-align: center;
+    line-height: 0.9rem;
+    font-size: 0.5rem;
+}

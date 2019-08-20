@@ -1,0 +1,1150 @@
+/* 公用底部 */
+
+.mkfooter{
+    width:100%;
+    height:1rem;
+    background: #fff;
+    position: fixed;
+    z-index:999;
+    left:0;
+    bottom:0;
+    display: flex;
+    align-items: center;
+    box-shadow: 5px 5px 10px #000000;
+}
+
+.mkfooter li{
+    flex:25%;
+    text-align:center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: .25rem;
+    color:#53ff4f;
+}
+.mkfooter>ul>li>span{
+    flex-direction: column;
+}
+.mkfooter iconfont{
+    font-size: .4rem;
+}
+.mkfooter>.active{
+    color:black;
+}
+
+
+
+/*；；；；；；；；；；；；
+
+    邵任曦  2套  
+
+；；；；；；；；；；；；；；*/
+.AccounthiddenInput{
+    display: none;
+}
+.AccountLogo img{
+    border-radius: 50%
+}
+.Account-box {
+    background-color: #eee;
+}
+.AccountHeader{
+    display: none;
+}
+.AccountLogo{
+    width: 100%;
+    height: 2.1rem;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: .2rem;
+    background-color: #fff;
+}
+.AccountLogo>div{
+    width: 100%;
+    height: 1rem;
+}
+.AccountLogo>div>img{
+    width: 1.2rem;
+    height: 1.1rem;
+}
+.AccountLogo > a {
+    width: 100%;
+}
+.AccountLogo > a >  h3{
+    margin: .3rem auto;
+    font-size: 14px;
+    color: #000;
+}
+.AccountNav-box {
+    display: flex;
+    height: 2rem;
+    font-size: 14px;
+    background-color: #fff;
+    margin-top: .05rem;
+    margin-bottom:.2rem
+}
+.AccountNav-box-cl {
+    display: none;
+}
+.AccountNav-box > div {
+    width: 33%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.AccountNav-box > div > div {
+    width: 100%;
+    height: 50%;
+    line-height: 1rem;
+}
+.AccountNav-box > div > div > i {
+    display: none;
+}
+.AccountNav-box > div > div > p {
+    color: red;
+}
+.AccountNav {
+    background-color: #fff;
+}
+.AccountNav > i {
+    display: block;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 1rem;
+}
+.AccountNav-box-1 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    margin-bottom: .2rem;
+}
+.AccountNav-box-1 > a{
+    width: 100%;
+}
+.AccountNav-box-1 > a > div{
+    width: 90%;
+    height: 1rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc ;
+    line-height: 1rem;
+    margin: 0 auto;
+    color: #666;
+}
+.AccountNav-box-1 > a:nth-child(2) > div {
+    border-bottom: none;
+}
+.AccountNav-box-2 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    margin-bottom: .2rem;
+}
+.AccountNav-box-2 >div {
+    width: 90%;
+    margin: 0 auto;
+    height: 1rem;
+    display: flex;
+    justify-content: space-between;
+    line-height: 1rem;
+    color: #666;
+    border-bottom: 1px solid #ccc ;
+}
+.AccountNav-box-2 >div:nth-child(3){
+    border-bottom: none;
+}
+.AccountNav-box-3 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    margin-bottom: 1.5rem;
+}
+.AccountNav-box-3 >div {
+    width: 90%;
+    margin: 0 auto;
+    height: 1rem;
+    display: flex;
+    justify-content: space-between;
+    line-height: 1rem;
+    color: #666;
+    border-bottom: 1px solid #ccc ;
+}
+.AccountNav-box-3 >div:nth-child(3){
+    border-bottom: none;
+}
+.AccountPic{
+    display: none;
+}
+.learnPersonal-no {
+    display: none;
+}
+
+
+
+/*;;;;;;;;;;;;;;;;;;;;;;
+
+            徐衡  2套
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;*/
+
+body ,html {
+    height: 100%;
+}
+.classifyBox{
+    height:100%;
+}
+.category-ify-box {
+    /* background: #fff; */
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+    display: flex;
+    margin-bottom:.2rem;
+    margin-top: 1.07rem;
+}
+/*左侧导航*/
+.category-box-lis {
+    width: 25%;
+    height: 100%;
+    background-color: #EEE;
+    float: left;
+    position: fixed;
+    left: 0;
+    /*width: 25%;*/
+    /*height: 100%;*/
+    overflow-x: hidden;
+    padding-bottom: 2.2rem;
+    overflow-y: auto;
+    color: #9B9B9B;
+    /* background: #EEE; */
+}
+.category-ulBox {
+    width: 100%;
+    box-sizing: border-box;
+    padding-bottom: 1rem;
+}
+.category-ulBox , li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.category-ulBox > li {
+    height: 1.1rem;
+    cursor: pointer;
+    box-sizing: border-box;
+    text-align: center;
+    overflow: hidden;
+    border-top: 1px solid #ccc;
+}
+.category-ulBox > li > p {
+    color: #666;
+    width: 100%;
+    font-size: 12px;
+    /*padding: 0 .1rem;*/
+    height: 1.1rem;
+    line-height: 1.1rem;
+    box-sizing: border-box;
+}
+.category-ulBox > li > p.col {
+    background-color: #fff;
+}
+/*右侧导航*/
+.category-box-cont {
+    width: 73%;
+    margin-left: 8.1em;
+}
+.category-box-cont > ul > li {
+    display: none;
+    margin-bottom:1.5rem;
+}
+.category-box-cont > ul > li.now{
+    display: block;
+}
+.category-box-cont > ul > li >  a {
+    display: block;
+    width: 100%;
+    height: 2rem;
+    margin-bottom: .1rem;
+}
+.category-box-cont > ul > li >  a > img {
+    width: 90%;
+    height: 90%;
+}
+.category-box-cont > ul {
+    height: 100%;
+}
+.category-box-cont > ul,li {
+    margin: 0;
+    padding: 0;
+}
+.category-right-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    /*justify-content: space-around;*/
+    align-content: baseline;
+    /*margin-bottom:.3rem;*/
+    padding: 0 .1rem;
+}
+.category-right-box a {
+    text-decoration: none;
+}
+.category-right-box p {
+    margin: 0;
+    padding: 0;
+}
+.category-right-box > div {
+    width: 29%;
+    height: 30%;
+    margin: .1rem;
+    box-sizing: border-box;
+}
+.category-right-box > div > a {
+    display: block;
+    width: 1.5rem;
+    height: 1rem;
+    background-color: #eee;
+    overflow: hidden;
+    margin: 0 auto;
+    line-height: 1rem;
+}
+.category-right-box > div > a > img {
+    display: none;
+}
+.category-right-box > div  p {
+    color: #666;
+    text-align: center;
+    text-overflow:ellipsis;
+    overflow: hidden;
+    white-space:nowrap;
+}
+
+
+/* 徐恒页头部轮播 */
+/*header*/
+.indexHeaderbox,.indexHeaderFind{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.indexHeaderbox {
+    width:100%;
+
+    background-color:white;
+    padding:0 0.3rem;
+    height: 1.07rem;
+    position:fixed;
+    top:0;
+    z-index:10;
+}
+.indexHeader {
+    width: 100%;
+    height: 0.64rem;
+    display: flex;
+    align-items:center;
+}
+.indexHeaderFind {
+    width:85%;
+    color:#bec2c5;
+    margin:0 auto;
+    overflow: hidden;
+    background-color: #f0f0f0;
+    border-radius: 0.4rem;
+    margin-right:0.21rem;
+}
+.indexHeaderFind .banner {
+    border: 0;
+    outline: none;
+    background-color: #f0f0f0;
+    border-radius: 0.3rem;
+    font-size: 0.28rem !important;
+    text-align: center;
+}
+.fa-search{
+    margin-right: 0.12rem;
+    font-size:0.24rem;
+}
+.indexHeader .icon-shejiao{
+    font-size:0.4rem;
+    margin-right:0.2rem;
+}
+.swiper-container1{
+    height:0.64rem;
+    line-height:0.64rem;
+    overflow: hidden;
+    font-size:0.24rem;
+}
+.swiper-slide swiper-slide-duplicate-next{
+    margin:0.3rem 0;
+    margin-bottom:0.22rem;
+}
+
+
+
+/*;;;;;;;;;;;;;;;;;;;;;
+
+    李凡  2套
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;*/
+
+
+/*头部签到*/
+.learnTop {
+    width: 100%;
+    height: 4.5rem;
+    background-color: #fff;
+    text-align: left;
+}
+.learn-box {
+    background-color: #EEEEEE;
+    height: 100%;
+}
+.learnTop-no {
+    width: 100%;
+    height: 100%;
+    background-color: #EEEEEE;
+    text-align: center;
+    overflow: hidden;
+}
+.learnTop-no > div {
+    width: 3rem;
+    height: 3rem;
+    margin: 1.5rem auto 0;
+}
+.learnTop-no > div > img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+
+}
+.learnTop-no > div > p {
+    color: #000;
+    margin-top: 2rem;
+    width: 100%;
+    font-size: 20px;
+}
+.learnTop1 {
+    width: 92%;
+    height: 1rem;
+    margin: 0 auto 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 0.62rem;
+    padding-top: 0.2rem;
+}
+.learnTopLeft {
+    width: 100%;
+    text-align: center;
+    height: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+.learnTopLeft img {
+    width: 1.5rem;
+    height: 1.5rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.learnTopLeft span {
+    display: block;
+    font-size: 0.28rem;
+    color: #000;
+    vertical-align: middle;
+    margin-left: 0.2rem;
+}
+.learnTopLeft i {
+    font-size: 0.28rem;
+    color: #fff;
+    vertical-align: middle;
+    margin-left: 0.2rem;
+}
+
+.learnRight {
+    display: block;
+    width: 0.8rem;
+    height: 0.8rem;
+    background-color: #36c6ab;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 0.8rem;
+    color: #fff;
+    margin: .3rem auto;
+    font-size: 0.2rem;
+}
+
+/*日期跳转*/
+.learnTop2 {
+    display: flex;
+    justify-content: space-between;
+    width: 88%;
+    padding: .1rem;
+    margin: 1.5rem auto 0;
+    border:1px solid #ccc;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+.learnTop2 li {
+    font-size: 0.22rem;
+    color: #fff;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #1c2a45;
+    text-align: center;
+    line-height: 0.5rem;
+}
+
+
+/*定位学习时间*/
+.learnTime {
+    width: 94%;
+    height: 1.4rem;
+    border-radius: 8px;
+    position: absolute;
+    top: 2rem;
+    left:0.22rem;
+
+    margin:0 auto;
+
+    display: none;
+    z-index: 2;
+    justify-content: space-around;
+    background-color: #fff;
+    box-shadow: 0px 2px 10px #cdcdcf ;
+}
+.learnTime1 {
+    margin: auto 0;
+}
+.learnTime1 b {
+    font-size: 0.3rem;
+}
+.learnTime1 p {
+    font-size: 0.22rem;
+    color: #c1c2c7;
+    margin-top: 0.16rem;
+}
+.learnTime1 i {
+    width: 0.04rem;
+    height: 0.56rem;
+    background-color: #cdcdcf;
+    margin: auto 0;
+}
+
+
+/*子组件：最近学习*/
+.learnXuexi {
+    width: 100%;
+    height: 3.94rem;
+    margin-top: .1rem;
+    margin-bottom: 1.5rem;
+}
+.learnXuexi1 {
+
+    background-color: #fff;
+}
+.learnZuijin {
+    width: 92%;
+    margin: .2rem auto;
+    overflow: hidden;
+}
+.learnZuijin p {
+    font-size: 0.3rem;
+    font-weight: 600;
+    display: block;
+    height: .8rem;
+    border-bottom: 1px solid #ccc;
+    line-height: .8rem;
+    overflow: hidden;
+}
+
+.icon-arrow-right {
+    font-size: 0.3rem;
+}
+.learnRadio {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: auto;
+    text-align: left;
+    padding-bottom: .3rem;
+    background-color: #fff;
+}
+.learnRadio > div {
+    width: 50%;
+    height: 2rem;
+    text-align: center;
+}
+.learnRadio img {
+    width: 2.5rem;
+    height: 1.28rem;
+}
+.learnList p {
+    /*width: 1.9rem;*/
+    font-size: 0.23rem;
+    margin-top: 0.16rem;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.learnBgc {
+    display: none;
+    width: 100%;
+    height: 0.16rem;
+    background-color: #f4f5f7;
+}
+
+
+/*下载管理*/
+.learnLoading {
+    height: 1.26rem;
+    line-height: 1.26rem;
+    display: none;
+    justify-content: space-between;
+    width: 92%;
+    margin: 0 auto;
+}
+
+.learnXuexi-no {
+    height: 1.26rem;
+    line-height: 1.26rem;
+    display: none;
+    justify-content: space-between;
+    width: 92%;
+    margin: 0 auto;
+}
+.learnLoading p {
+    font-size: 0.3rem;
+    font-weight: 600;
+}
+.learnLoading i {
+    font-size: 16px;
+    line-height: 1.26rem;
+}
+.learnXuexi-no p {
+    font-size: 0.3rem;
+    font-weight: 600;
+}
+.learnXuexi-no i {
+    font-size: 16px;
+    line-height: 1.26rem;
+}
+/*子组件个人中心*/
+.learnPersonal {
+    background-color: #fff;
+    width: 100%;
+    margin: 3.6rem auto .1rem;
+    padding: .2rem;
+    overflow: hidden;
+    /*display: none;*/
+    /*margin-bottom: 1.5rem;*/
+}
+.learnPersonal-no {
+    display: none;
+}
+.learnPersonal1 b {
+    font-size: 0.3rem;
+    font-weight: 600;
+    display: block;
+    height: .8rem;
+    border-bottom: 1px solid #ccc;
+    line-height: .8rem;
+    overflow: hidden;
+}
+
+.learnGeren {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    margin: 0 auto 1.5rem;
+}
+
+
+/*小图标循环*/
+.learnCenter {
+    text-align: center;
+    width: 33%;
+    height: 100%;
+    margin-top: 0.4rem;
+}
+.learnCenter img {
+    width: 0.64rem;
+    height: 0.64rem;
+}
+.learnCenter p {
+    font-size: 0.22rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 李凡的tx首页css      1902--李凡 21:40:39*/
+
+/* 分割线----------------------------------------------------------------------------- */
+/*首页全部css*/
+/*header*/
+.indexHeaderbox,.indexHeaderFind{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.indexHeaderbox {
+    width:100%;
+    background-color:white;
+    padding:0 0.3rem;
+    height: 1.07rem;
+    position:fixed;
+    top:0;
+    z-index:10;
+}
+.indexHeader {
+    width: 100%;
+    height: 0.64rem;
+    display: flex;
+    align-items:center;
+}
+.indexHeaderFind {
+    width:96%;
+    color:#bec2c5;
+    margin:0 auto;
+    overflow: hidden;
+    background-color: #f0f0f0;
+    border-radius: 0.16rem;
+    /*margin-right:0.21rem;*/
+}
+.indexHeaderFind .banner {
+    border: 0;
+    outline: none;
+    background-color: #f0f0f0;
+    border-radius: 0.3rem;
+    font-size: 0.28rem !important;
+    text-align: center;
+}
+.fa-search{
+    margin-right: 0.12rem;
+    font-size:0.24rem;
+}
+.indexHeader .icon-shejiao{
+    font-size:0.4rem;
+    margin-right:0.2rem;
+    display: none;
+}
+.swiper-container1{
+    height:0.64rem;
+    line-height:0.64rem;
+    overflow: hidden;
+    font-size:0.24rem;
+}
+.swiper-slide swiper-slide-duplicate-next{
+    margin:0.2rem 0;
+    margin-bottom:0.12rem;
+}
+
+/*main*/
+.indexMain{
+    flex: 1;
+    overflow-y: auto;
+    margin: 1rem 0;
+}
+/*banner部分*/
+.indexBanner{
+    width:100%;
+    margin:0.2rem 0;
+    padding:0 0.3rem;
+    border-radius: 30px !important;
+}
+.indexBanner .swiper-container {
+    width:100%;
+    height: 3rem;
+}
+.indexBanner .swiper-container{
+    border-radius: 20px !important;
+}
+.indexBanner .swiper-container .swiper-slide{
+    height: 3rem;
+    width:100%;
+}
+.indexBanner .swiper-slide img{
+    width: 100%;
+    height:100%;
+    border-radius: 20px !important;
+}
+.indexBanner .swiper-container  .swiper-pagination {
+    color: #fff;
+    opacity: 1;
+}
+.indexBanner .swiper-pagination-customs {
+    width: 0.12rem;
+    height: 0.12rem;
+    display:inline-block;
+    background: #000;
+    opacity: .3;
+    border-radius: 50%;
+    margin: 0 5px;
+    outline: 0;
+}
+.indexBanner .swiper-pagination-customs-active {
+    opacity: 1;
+    width: 0.2rem;
+    height: 0.12rem;
+    border-radius:30%;
+    background-color:#fff;
+}
+
+/*nav部分*/
+.indexNav{
+    display: flex;
+    padding-bottom: 0.5rem;
+    overflow-x: hidden;
+    display: none;
+}
+.indexThree{
+    flex:1;
+    text-align: center;
+
+}
+.indexThreeOne{
+    width: 1.1rem;
+    height: 1.1rem;
+    margin: 0.2rem;
+    border-radius: 1rem;
+}
+.indexThreeTwo{
+    font-size: 0.26rem;
+}
+
+/*各个item的大框架*/
+.indexItemTit{
+    padding:0 0.4rem;
+    padding-top:0.6rem;
+    font-size:0.4rem;
+    display:flex;
+    align-items: center;
+}
+.indexItemTit>h3{
+    margin-right:0.3rem;
+}
+.indexItemTit>span{
+    font-size:0.25rem;
+    color:#80858a;
+}
+.indexItemBot{
+    padding:0 0.4rem;
+    padding-top:0.2rem;
+    display:flex;
+    justify-content: space-around;
+}
+.indexItemB {
+    width: 2.1rem;
+    height: 0.66rem;
+    background-color: #f3f5f7;
+    line-height: 0.66rem;
+    text-align: center;
+    color: #757b81;
+    font-size: 0.24rem;
+    font-weight: 600;
+    border-radius: 0.4rem;
+}
+.indexItemB>span{
+    display: inline-block;
+}
+
+/*bottom*/
+.indexFootTop {
+    width: 100%;
+    height: 1.66rem;
+    text-align: center;
+    background-color: #ffffff;
+}
+.indexFootTop>p {
+    width: 100%;
+    height: 1.66rem;
+    color: #d3d5d8;
+    font-size: 0.3rem;
+    line-height: 1.66rem;
+}
+
+
+/* columnstyle的样式 */
+
+
+.mkZhuanLan1 {
+    display: flex;
+    overflow-x: auto;
+    padding-top:0.3rem;
+    overflow-y: hidden;
+}
+.mkZhuanLan1 .lists {
+    width: 3rem;
+    height: 2.6rem;
+    margin-right:0.52rem;
+}
+.mkZhuanLan1 .lists:nth-child(1){
+    margin-left: 0.4rem;
+}
+.mkZhuanLan1 .lists:nth-child(8){
+    padding-right: .4rem;
+    margin-right: 0;
+}
+
+.mkZhuanLan1 .lists img {
+    width: 1rem;
+    height: 1rem;
+    margin: 0 auto;
+}
+.mkZhuanLan1 .lists p {
+    display:block;
+    font-size: 0.18rem;
+    font-weight: 600;
+    text-align: left;
+    margin-top: 0.17rem;
+    line-height: 0.3rem;
+}
+
+/* practical 被引用 在首页实战目录下 */
+.indexItemP {
+    width: 96%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.mkPracticalOne{
+    width:50%;
+    text-align: left !important;
+    padding:0.4rem 0.3rem 0;
+    display:flex;
+    flex-direction: column;
+}
+.mkPracticalTwo{
+    display: inline-block;
+    width: 2.8rem;
+    height:1.8rem;
+    border-radius: 0.2rem;
+}
+.mkPracticalThree{
+    flex:1;
+    display: inline-block;
+    /*margin-left: 0.3rem;*/
+    margin-top: 0.2rem;
+    text-align: left !important;
+}
+.mkPracticalThree .mkPracticalEight{
+    font-size: 0.28rem !important;
+    font-weight: 700;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.mkPracticalFour{
+    font-size: 0.28rem;
+    color:#8f9498;
+    margin-top: 0.2rem;
+    display: inline-block;
+    padding-right: 0.2rem;
+}
+
+
+/* topic被引用  在首页  专题荐下使用 */
+
+.mkindexTuijian {
+    width: 100%;
+    height: 2.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.mkTuijianLeft,.mkTuijianRight {
+    height: 1.65rem;
+    width: 3.17rem;
+    background-color: #007aff;
+    border-radius: 0.2rem;
+    font-size: 0.32rem;
+    color: white;
+}
+.mkTuijianLeft {
+    background-color: #795da3;
+}
+.mkTuijianLeft>p,.mkTuijianRight>p {
+    margin-top: 0.32rem;
+    width: 3rem;
+    text-align: center;
+    display: inline-block;
+    text-align: left;
+}
+.mkTuijianRight>p {
+    padding-left: 0.1rem;
+}
+.mkTuijianLeft>p {
+    padding-left: 0.3rem;
+}
+.mkTuijianLeft>span,.mkTuijianRight>span {
+    display: inline-block;
+    width: 0.4rem;
+    height: 0.4rem;
+    line-heiht:0.4rem;
+    text-align:center;
+    border-radius: 50%;
+    background-color: #222222;
+    opacity: 0.3;
+    bottom:0.2rem;
+    right:0.2rem;
+    float: right;
+    margin-right:0.2rem;
+    margin-bottom:0.1rem;
+}
+
+
+/* paracticals 被引用在 首页  新上好课里面 */
+.indexItemPs {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.mkspracticalOne{
+    width: 50%;
+    text-align: left !important;
+    padding: 0.4rem 0.3rem 0;
+    display: flex;
+    flex-direction: column;
+}
+.mkspracticalTwo{
+    display: inline-block;
+    width: 2.8rem;
+    height:1.8rem;
+    border-radius: 0.2rem;
+}
+.mkspracticalThree{
+    flex:1;
+    display: inline-block;
+    /*margin-left: 0.3rem;*/
+    text-align: left !important;
+}
+.mkspracticalThree .mkspracticalEight{
+    font-size: 0.28rem !important;
+    font-weight: 700;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    margin-top: 0.2rem;
+}
+.mkspracticalFour{
+    font-size: 0.28rem;
+    color:#8f9498;
+    margin-top: 0.2rem;
+    display: inline-block;
+    padding-right: 0.2rem;
+}
+/*  */
+.jobs-four {
+    margin-bottom: .3rem;
+    padding:0 .3rem;
+}
+.jobs-four-tit {  /*外部盒子标题*/
+    width: 100%;
+    box-sizing: border-box;
+    height: .8rem;
+    margin-bottom: 0.2rem;
+}
+
+
+/* 首页引用的 freestyle组件 */
+.mkfreeBig {
+    padding:0 0.3rem;
+    background: #ffffff;
+    display:flex;
+    flex-wrap: wrap;
+}
+.mkfreeTit{
+    width:50%;
+    padding-top:0.3rem;
+}
+.mkfreeLeft{
+    /*height: 2.9rem;*/
+    background: #ffffff;
+
+}
+.mkfreeRight{
+    margin-right: 0;
+}
+.mkfreeBj{
+    width:3.3rem;
+    height: 2rem;
+    border-radius:.2rem;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+.mkfreeSpan{
+    display: block;
+    font-size: .28rem;
+    color: black;
+    line-height: .36rem;
+    text-align: left;
+    font-weight: 600;
+    margin-top: .24rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.mkGrade{
+    float: left;
+    width: .68rem;
+    height:.32rem;
+    font-size: .24rem;
+    background: #667cb2;
+    line-height: .32rem;
+    color: #ffffff;
+    border-radius: .12rem;
+    margin-left: 1.2rem;
+    margin-top: 1.48rem;
+}
+.mkNum{
+    float: left;
+    width: 1.2rem;
+    height:0.32rem;
+    font-size: .24rem;
+    background: #667cb2;
+    text-align: center;
+    line-height: .32rem;
+    color: #ffffff;
+    border-radius: .12rem;
+    margin-left: .14rem;
+    margin-top: 1.48rem;
+    display: flex;
+    justify-content: space-around;
+}
+.mkNumimg{
+    width: .24rem;
+    height: .24rem;
+    margin: auto;
+}
+.mkNUmSpan{
+    display: block;
+}

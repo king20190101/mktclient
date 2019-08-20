@@ -1,0 +1,98 @@
+.LoginHeader{
+    width: 92%;
+    height: 0.77rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+.LoginHeader i{
+    font-size: 0.5rem;
+}
+.LoginHeader span{
+    font-size: 0.4rem;
+    
+}
+.LoginPhone{
+    width: 100%;
+    margin: 0.43rem 0;
+}
+.LoginPhone .first{
+    display: flex;
+    width: 88%;
+    height: 0.9rem;
+    margin: 0 auto;
+    line-height: 0.9rem;
+    justify-content: space-around;
+}
+/* .phone .first span{
+    font-size: 0.3rem
+}
+.phone .first i{
+    color: #666c73;
+    line-height: 0.9rem;
+    font-size: 0.3rem
+} */
+.LoginPhone .first input{
+    border-bottom: 0.01rem solid #eaecee;
+    /* color: #b7bbbf; */
+    width: 5.62rem;
+    height: 0.8rem;
+    font-size: 0.3rem
+}
+.LoginPhone .second input{
+    border-bottom: 0.01rem solid #eaecee;
+    /* color: #b7bbbf; */
+    width: 5.62rem;
+    height: 0.8rem;
+    font-size: 0.3rem;
+    margin-top:0.3rem;
+}
+.LoginPhone .third{
+    width: 76%;
+    height: 1rem;
+    background-color: #b7bbbf;
+    margin: 0 auto;
+    margin-top: 0.8rem;
+    border-radius: 0.1rem 0.1rem 0.1rem 0.1rem;
+}
+.LoginPhone .third p{
+    line-height: 1rem;
+    text-align: center;
+    color: #fff;
+    font-size: 0.3rem
+}
+.LoginPhone .forty{
+    width: 76%;
+    height: 0.85rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 0.3rem;
+}
+.LoginPhone .forty p{
+    line-height: 0.85rem;
+    color: #2b333b;
+    font-size:0.25rem;
+}
+.LoginPhone .fifth{
+     width: 76%;
+    height: 2.13rem;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+.LoginPhone .fifth P{
+    color: #2b333b;
+    font-size:0.3rem;
+    line-height: 1.1rem;
+}
+.LoginTittle{
+    width: 100%;
+    height: 0.9rem;
+}
+.LoginTittle p{
+    text-align: center;
+    line-height: 0.9rem;
+    font-size: 0.5rem;
+}

@@ -1,0 +1,181 @@
+/*CourseVideoDetails.css*/
+.CourseVideoDetails {
+    width: 100%;
+}
+.CourseVideoDetailsHeader {
+    width: 100%;
+   
+   
+}
+
+
+.CourseVideoHeaderbox {
+    width: 100%;
+    background-color: white;
+}
+.CourseVideoHeadersecond {
+    width: 90%;
+    margin: 0 auto;
+    height: 1rem;
+    line-height: 1rem;
+    margin-top: 1.25rem;
+}
+.CourseVideoHeadersecond>span {
+    font-size: 0.4rem;
+    display: inline-block;
+    width: 1.25rem;
+    height: 0.55rem;
+    background-color: #f01414;
+    color: white;
+    line-height: 0.55rem;
+    border-radius: 0.5rem;
+    float: left;
+    margin-top: 0.1rem;
+}
+.CourseVideoHeaderthree {
+    width: 90%;
+    margin: 0 auto;
+    height: 1rem;
+    margin-top: 0.2rem;
+}
+.CourseVideoHeaderthree>p {
+    font-size: 0.4rem;
+    float: left;
+    margin-top: 0.15rem;
+}
+.CourseVideoHeaderfour {
+    width: 90%;
+    margin: 0 auto;
+    height: 1rem;
+}
+.CourseVideoHeaderfour>p {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 1rem;
+    font-size: 0.3rem;
+    text-align: left;
+}
+
+
+.CourseVideoHeadersynopsis {
+    width: 90%;
+    margin: 0 auto;
+    height: 2.9rem;
+    background-color: white;
+    margin-top: 0.2rem;
+    border-top: 1.5px solid #f4f5f7;
+    padding-top: 0.3rem;
+
+}
+.CourseVideoHeadersynopsis>span {
+    font-size: 0.4rem;
+    float: left;
+    top: 0.3rem;
+}
+.CourseVideoHeadersynopsis>p {
+    font-size: 0.3rem;
+    float: left;
+    top: 0.4rem;
+    text-align: left;
+}
+
+
+.CourseVideoHeadertop {
+    display: flex;
+   justify-content: space-around;
+    width: 100%;
+    height: 1.25rem;
+   
+    align-items: center;
+   
+    /* margin: 0 auto; */
+    font-size: 0.3rem;
+    position: fixed;
+    top: 0;
+    background-color: white;
+}
+.fa-angle-left {
+    font-size: 0.6rem;
+}
+.fa-envelope-o {
+    font-size: 0.45rem;
+}
+
+
+.CourseVideorecommendspan {
+    font-size: 0.4rem;
+    float: left;
+   margin-left: 0.5rem;
+    margin-top: 0.3rem;
+}
+.commendFooter {
+    width: 100%;
+    margin: 0 auto;
+   
+    height: 1.4rem;
+    vertical-align: middle;
+   
+    position: fixed;
+    bottom: 0px;
+    background-color: white;
+    display: flex;
+    height: 1rem;
+    align-items: center;
+    
+}
+.commendFooterleft {
+   width: 20%;
+    height: 100%;
+    font-size: 0.3rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+}
+.commendFooterleft p{
+    font-size: 0.28rem;
+}
+.commendFooterleftright {
+    
+    width: 75%;
+    font-size: 0.3rem;
+    height: .8rem;
+    background-color: red;
+    border-radius: 0.5rem;
+    color: white;
+    line-height: .8rem;
+}
+
+
+.CourseVideosection {
+    padding-top: 0.3rem;
+    width: 85%;
+    margin: 0 auto;
+    text-align: left;
+    border-top: 1.5px solid #f4f5f7;
+    border-bottom: 1px solid #f4f5f7;
+    padding-bottom: 0.3rem;
+}
+.sectionSpan {
+    font-size: 0.4rem;
+}
+.CourseVideosection .titleSpan {
+    font-size: 0.3rem;
+    margin: 0.2rem 0;
+}
+.CourseVideosection .littleListSpan {
+    font-size: 0.3rem;
+    margin: 0.2rem 0;
+}
+
+
+
+
+.huadong{
+    color:red;
+}
+.CourseVideoDetailsHeader {
+    margin-bottom: 1rem;
+}

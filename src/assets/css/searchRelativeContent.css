@@ -1,0 +1,171 @@
+.p{
+    width:100%;
+    height:100%;
+    position:fixed;
+    top:0;
+}
+.searchHeader{
+    box-shadow:none;
+    width:100%;
+    position:fixed;
+    top:0;
+    background-color:white;
+    border-bottom: 0.5px solid #fafafa;
+}
+.searchHeader input{
+    border-bottom: 1px solid #fafafa;
+}
+/*导航*/
+.searchCourseNav{
+    width:100%;
+    position:fixed;
+    top:0.89rem;
+    color:#19222b;
+    font-size:0.24rem;
+    background-color:white;
+    box-shadow: 0px 10px 10px #fafafa;
+}
+/*导航1*/
+.searchNavOutside,.searchNavInside{
+    padding:0 0.3rem;
+    border-top: 1px solid #fafafa;
+    border-bottom: 1px solid #fafafa;
+}
+.searchNavOutside .active{
+    text-align:center
+}
+.searchNavOutside .searchLine{
+    margin: 0 auto;
+    width:10px;
+    height:3px;
+    border-radius: 10px;
+    background-color:red;
+    margin-top: -9px;
+}
+.searchNavOutside{
+    line-height:0.95rem;
+    justify-content: space-around;
+    position:relative;
+}
+/*导航2*/
+.searchNavInside{
+    line-height:0.95rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.searchNavInside .active{
+    width:1.50rem;
+    height:0.55rem;
+    border-radius:0.3rem;
+    background-color:#2b333b;
+    color:white;
+    line-height: 0.55rem;
+    text-align:center;
+}
+/*搜索内容*/
+.searchContent{
+    padding: 2.8rem 0.3rem 0;
+    height:100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+/*计数*/
+.searchNums{
+    padding:0.3rem 0;
+    text-align: left;
+    color:#8e9398;
+    font-size:0.22rem;
+}
+/*每条信息*/
+.searchContentList{
+    margin-bottom: 0.3rem;
+}
+/*左边*/
+.searchPhoto{
+    width:2.17rem;
+    height:1.46rem;
+}
+.searchPhoto>img{
+    width:100%;
+    height:1.46rem;
+    border-radius: 0.1rem;
+}
+/*右边*/
+.searchDirection{
+    margin-left:0.2rem;
+    flex:1;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.5px solid #fafafa;
+}
+.searchDirectionText{
+    text-align: left;
+}
+.searchDirectionText>p{
+    font-size:0.26rem;
+    color:#283038;
+    font-weight:500;
+    /*line-height:0.4rem;*/
+    margin-bottom:0.2rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.searchCartSign{
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius:50%;
+    line-height:0.5rem;
+    font-size:0.28rem;
+    text-align: center;
+    background-color:#fef1f1;
+    color:#f34f4f;
+    margin-left:0.5rem;
+}
+.searchDirectionText li{
+    padding-bottom:0.4rem;
+}
+.searchDirectionText li span{
+    display:inline-block;
+    margin-right: 0.4rem;
+    color:#c4c7ca;
+}
+
+
+/*手记组件*/
+.searchNotesList{
+    justify-content: space-between;
+    padding:0.2rem 0;
+    border-bottom:1px solid #d9dde1;
+}
+.searchNotesListTit{
+    color:#2b333b;
+    font-size:0.28rem;
+    margin-bottom:0.22rem;
+    text-align: left;
+}
+.searchNotesListRight>img{
+    width:1.49rem;
+    height:1.42rem;
+}
+.searchNotesListTips{
+    align-items: center;
+}
+.searchNotesListTips>li{
+    color:#767c82;
+    font-size:0.18rem;
+    padding:0.12rem;
+    border-radius:0.15rem;
+    background-color:#f3f3f3;
+    margin-right: 0.14rem;
+}
+.searchNotesListTips>span{
+    margin-left:0.14rem;
+}
+
+/*加载更多*/
+.searchNoMore{
+    line-height: 0.9rem;
+}

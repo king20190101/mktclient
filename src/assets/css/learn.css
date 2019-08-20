@@ -1,0 +1,256 @@
+/*头部签到*/
+.learnTop {
+    width: 100%;
+    height: 2.7rem;
+    background-color: #1c2a45;
+    text-align: left;
+    position: absolute;
+    top: 0;
+}
+.learnTop-no {
+    width: 100%;
+    height: 3rem;
+    background-color: #1c2a45;
+    text-align: center;
+    overflow: hidden;
+}
+.learnTop-no > div {
+    width: 2rem;
+    height: 2rem;
+    margin:.7rem auto;
+}
+.learnTop-no > div > img {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+
+}
+.learnTop-no > div > p {
+    color: #fff;
+    margin-top: .3rem;
+    width: 100%;
+    font-size: 14px;
+}
+.learnTop1 {
+    width: 92%;
+    height: 0.62rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.62rem;
+    padding-top: 0.2rem;
+}
+
+.learnTopLeft img {
+    width: 0.6rem;
+    height: 0.6rem;
+    vertical-align: middle;
+}
+
+.learnTopLeft span {
+    font-size: 0.28rem;
+    color: #fff;
+    vertical-align: middle;
+    margin-left: 0.2rem;
+}
+.learnTopLeft i {
+    font-size: 0.28rem;
+    color: #fff;
+    vertical-align: middle;
+    margin-left: 0.2rem;
+}
+
+.learnRight {
+    width: 0.8rem;
+    height: 0.46rem;
+    background-color: #36c6ab;
+    border-radius: 12px;
+    text-align: center;
+    line-height: 0.46rem;
+    color: #fff;
+    margin: auto 0;
+    font-size: 0.2rem;
+}
+
+/*日期跳转*/
+.learnTop2 {
+    display: flex;
+    justify-content: space-between;
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 0.4rem;
+}
+.learnTop2 li {
+    font-size: 0.22rem;
+    color: #fff;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #1c2a45;
+    text-align: center;
+    line-height: 0.5rem;
+}
+.learnTop2 li:nth-of-type(4){
+    /* background-color: #36c6ab; */
+}
+
+
+/*定位学习时间*/
+.learnTime {
+    width: 94%;
+    height: 1.4rem;
+    border-radius: 8px;
+    position: absolute;
+    top: 2rem;
+    left:0.22rem;
+    
+    margin:0 auto;
+  
+    display: flex;
+    z-index: 2;
+    justify-content: space-around;
+    background-color: #fff;
+    box-shadow: 0px 2px 10px #cdcdcf ;
+}
+.learnTime1 {
+    margin: auto 0;
+}
+.learnTime1 b {
+    font-size: 0.3rem;
+}
+.learnTime1 p {
+    font-size: 0.22rem;
+    color: #c1c2c7;
+    margin-top: 0.16rem;
+}
+.learnTime1 i {
+    width: 0.04rem;
+    height: 0.56rem;
+    background-color: #cdcdcf;
+    margin: auto 0;
+}
+
+
+/*子组件：最近学习*/
+.learnXuexi {
+    width: 100%;
+    height: 3.94rem;
+    margin-top: 2.5rem;
+}
+.learnXuexi1 {
+    padding-top: 1.24rem;
+}
+.learnZuijin {
+    display: flex;
+    justify-content: space-between;
+    width: 92%;
+    margin: 0 auto;
+}
+.learnZuijin p {
+    font-size: 0.3rem;
+    font-weight: 600;
+}
+
+.icon-arrow-right {
+    font-size: 0.3rem;
+}
+.learnRadio {
+    display: flex;
+    overflow-x: auto;
+    margin-left: 0.3rem;
+    margin-top: 0.3rem;
+    text-align: left;
+}
+
+.learnRadio img {
+    width: 1.9rem;
+    height: 1.28rem;
+}
+.learnList {
+    margin-right: 0.22rem;
+}
+.learnList p {
+    width: 1.9rem;
+    font-size: 0.23rem;
+    margin-top: 0.16rem;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.learnBgc {
+    width: 100%;
+    height: 0.16rem;
+    background-color: #f4f5f7;
+}
+
+
+/*下载管理*/
+.learnLoading {
+    height: 1.26rem;
+    line-height: 1.26rem;
+    display: flex;
+    justify-content: space-between;
+    width: 92%;
+    margin: 0 auto;
+}
+.learnXuexi-no {
+    height: 1.26rem;
+    line-height: 1.26rem;
+    display: flex;
+    justify-content: space-between;
+    width: 92%;
+    margin: 0 auto;
+}
+.learnLoading p {
+    font-size: 0.3rem;
+    font-weight: 600;
+}
+.learnLoading i {
+    font-size: 16px;
+    line-height: 1.26rem;
+}
+.learnXuexi-no p {
+    font-size: 0.3rem;
+    font-weight: 600;
+}
+.learnXuexi-no i {
+    font-size: 16px;
+    line-height: 1.26rem;
+}
+/*子组件个人中心*/
+.learnPersonal {
+    text-align: left;
+    margin-bottom: 1.5rem;
+}
+
+.learnPersonal1 b {
+    font-size: 0.3rem;
+    font-weight: 600;
+    margin-left: 0.3rem;
+    margin-top: 0.4rem;
+    display: block;
+}
+
+.learnGeren {
+    width: 92%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 0.1rem;
+}
+
+
+/*小图标循环*/
+.learnCenter {
+    text-align: center;
+    width: 25%;
+    margin-top: 0.4rem;
+}
+.learnCenter img {
+    width: 0.64rem;
+    height: 0.64rem;
+}
+.learnCenter p {
+    font-size: 0.22rem;
+}

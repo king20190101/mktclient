@@ -1,0 +1,174 @@
+/*我的收藏*/
+
+.learnFirst {
+    text-align: left;
+}
+.learnNav {
+    width: 62%;
+    height: 1rem;
+    /* display: flex;
+    justify-content: space-between; */
+    line-height: 1rem;
+    margin-left: 0.48rem;
+}
+
+.learnNav i {
+    font-size: 0.4rem;
+}
+.learnNav span:nth-of-type(1) {
+    font-size: 0.34rem;
+    color: #e40c0d;
+    font-weight: bold;
+    margin-left:2rem;
+}
+.learnNav span:nth-of-type(2) {
+    font-size: 0.34rem;
+    font-weight: bold;
+}
+.learnAll {
+    width: 92rem;
+    height: 1rem;
+    line-height: 1rem;
+    box-shadow: 0px 5px 10px #f7f7f7 ;
+}
+.learnAll span {
+    width: auto;
+    height: 0.58rem;
+    font-size: 0.2rem;
+    font-weight: bold;
+    border-radius: 20px;
+    display: inline-block;
+    line-height: 0.58rem;
+    padding: 0 0.26rem;
+}
+.learnAll span:nth-of-type(1) {
+    background-color: #fff0f3;
+    color: #e40c0d;
+    margin-left: 0.4rem;
+}
+.learnAll span:nth-of-type(2) {
+    background-color: #f3f3f3;
+    color: #828689;
+    margin-left: 0.2rem;
+}
+.learnMusic {
+    display: flex;
+    margin-top: 0.2rem;
+}
+.learnMusic img {
+    width: 2.16rem;
+    height: 1.45rem;
+    margin-left: 0.4rem;
+}
+.learnMusicRight {
+    margin-left: 0.2rem;
+}
+.learnMusicRight p{
+    font-size: 0.3rem;
+    font-weight: bold;
+}
+.learnMusicRight span{
+    font-size: 0.2rem;
+    color: #828689;
+    margin-right: 0.2rem;
+    margin-top: 0.24rem;
+    display: inline-block;
+}
+.learnMei {
+    font-size: 0.2rem;
+    color: #828689;
+    text-align: center;
+    margin-top: 0.72rem;
+}
+
+/*我的实战*/
+
+.learnSecondNav {
+    width: 56%;
+    height: 1rem;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    line-height: 1rem;
+    margin-left: 0.48rem;
+    text-align: left;
+}
+
+.learnSecondNav i{
+    font-size: 0.4rem;
+}
+.learnSecondNav span:nth-of-type(1) {
+    font-size: 0.36rem;
+    font-weight: bold;
+    margin-left:2rem;
+}
+.learnSecond img {
+    width: 2.41rem;
+    height: 2.47rem;
+    margin-top: 3.62rem;
+}
+.learnSecond p{
+    margin-top: 0.8rem;
+    font-size: 0.3rem;
+}
+.learnSecondfind{
+    margin-top: 0.5rem;
+    font-size: 0.2rem;
+    border-radius:20px ;
+    width: auto;
+    height: 0.62rem;
+    border: 1px solid #0e181f;
+    padding: 0 0.3rem;
+    display: inline-block;
+    line-height: 0.62rem;
+}
+
+/*下拉效果*/
+
+.learnThirdNav {
+    width: 80%;
+    height: 1rem;
+    display: flex;
+    line-height: 1rem;
+    /* margin-left: 0.48rem;
+    text-align: left; */
+    align-item:center;
+    justify-content:space-around;
+}
+
+.learnThirdNav i {
+    font-size: 0.4rem;
+}
+.learnThirdNav p{
+    font-size: 0.36rem;
+    font-weight: bold;
+    /* margin-left: 2rem; */
+}
+
+
+.learnBiji {
+    width: 1.8rem;
+    height: 3.4rem;
+    box-shadow: 0px 5px 10px #eaeaea;
+    display: block;
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.learnB {
+    font-size: 0.3rem;
+}
+.learnThirdImg {
+    position: absolute;
+    top: 1rem;
+    left: 2.6rem;
+}
+.learnThirdImg img {
+    width: 2.41rem;
+    height: 2.47rem;
+    margin-top: 3.62rem;
+}
+.learnThirdImg p{
+    margin-top: 0.8rem;
+    font-size: 0.3rem;
+}

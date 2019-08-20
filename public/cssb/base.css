@@ -1,0 +1,164 @@
+@charset "utf-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td，article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+    box-sizing: border-box;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    text-align:center;
+    /* max-width:750px;
+    min-width: 300px; */
+    margin:0 auto;
+}
+.header-o {
+    background-color:#fdb9f1 !important;
+}
+/* 伪类 */
+a:hover{
+    text-decoration: underline;
+}
+a:focus {
+    outline: 0;
+}
+::selection{
+    background-color: #b3d4fc;
+    text-shadow:none;
+}
+
+ol,ul,li{
+    list-style:none;
+}
+fieldset,img {
+    border: 0; /*主要是为了解决ie6中出现蓝颜色边框的问题*/
+}
+.vm{
+    /* 垂直居中 */
+    vertical-align:middle;
+}
+.none{
+    display:none;
+
+}
+
+i{
+    font-style:normal;
+}
+a{
+    text-decoration:none;
+}
+label{
+    display: inline-block;
+    cursor:pointer;
+}
+/* label标签下type属性为radio的input标签被选中时，它的普通兄弟i标签 */
+label input[type="radio"]:checked~i{
+    color: #38d6ff;
+}
+
+/* 表格 */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* 表单 */
+input{
+   border: 0;
+}
+input[type="radio"]{
+    display: none;
+}
+textarea{
+    outline:none;
+    /* border:none; */
+    /* 文本域可拖拽 */
+    /* resize:none; */
+}
+/* 浮动 */
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+/* 定位 */
+.p-r {
+    position: relative;
+}
+.p-a {
+    position: absolute;
+}
+.p-s {
+    position: static;
+}
+.p-f {
+    position: fixed;
+}
+/* 外边距 */
+.m-tb10{
+    margin:10px 0;/*上下边距为10px，左右为0*/
+}
+.m-lr10{
+    margin:0 10px; /*上下边距为0，左右边距为10*/
+}
+.p-tb10{
+    padding:10px 0;/*上下内边距为10px，左右为0*/
+}
+.p-lr5{
+    padding:0 5px; /*上下内边距为0，左右为10px*/
+}
+/* 清除浮动 */
+.clearfix:after{
+    content:'';
+    display:block;
+    height:0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
+/* 弹性盒子 */
+.flex {
+    display: flex;
+}
+
+.in-flex {
+    display: inline-flex;
+}
+/* 版心 */
+.container {
+    width: 1080px;
+    margin:0 auto;
+}
+
+/* 弹性盒子居中显示 */
+.df{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+

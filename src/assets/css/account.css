@@ -1,0 +1,113 @@
+.AccountHeader{
+    width: 100%;
+    height: 0.77rem;
+}
+.AccountHeader div{
+    line-height: 0.77rem;
+   width: 92%;
+  margin: 0 auto;
+}
+.AccountHeader div i{
+   font-size: 0.4rem;
+    float: right;
+    line-height: 0.77rem;
+    margin: 0 0.2rem;
+}
+.AccountHeader .log{
+    width: 1.84rem;
+    height: 1.82rem;
+}
+.AccountHeader .log img{
+     width: 1.84rem;
+    height: 1.84rem;
+}
+.AccountLogo{
+    width: 92%;
+    height: 1.28rem;
+     margin: 0 auto;
+     display: flex;
+}
+.AccountLogo>div{
+    width: 1.48rem;
+    height: 1.28rem;
+  
+}
+.AccountLogo>div>img{
+    width: 100%;
+    height: 100%;
+}
+.AccountLogo h3{
+    line-height: 1.28rem;
+    height: 1.28rem;
+    margin: 0 0.3rem;
+    font-size: 0.35rem;
+    color: black;
+}
+.AccountPicture{
+    width: 92%;
+    height: 1.28rem;
+     margin: 0 auto;
+     display: flex;
+}
+.AccountPicture>div{
+    width: 1.28rem;
+    height: 1.28rem;
+  
+}
+.AccountPicture>div>img{
+    width: 100%;
+    height: 100%;
+}
+.AccountPicture h3{
+    line-height: 1.28rem;
+    height: 1.28rem;
+    margin: 0 0.3rem;
+    
+}
+.AccountNav{
+    width: 92%;
+    height: 1.13rem;
+    margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+    border-bottom: 0.01rem solid #e6e8eb;
+}
+.AccountNav>div:nth-child(1){
+    line-height: 1.13rem;
+    font-size: 0.25rem;
+    font-weight: 700;
+    color: black;
+}
+.AccountNav>div:nth-child(2){
+    height: 1.13rem;
+    display: flex;
+    font-size: 0.25rem;
+}
+.AccountNav>div:nth-child(2) p{
+    line-height: 1.13rem;
+    margin: 0 0.1rem;
+    color: #f01414
+}
+.AccountNav>div:nth-child(2) i{
+    line-height: 1.13rem;
+    margin: 0 0.1rem;
+    color: #b7bbbf;
+    font-size: 0.25rem;
+}
+.AccountPic{
+    width: 92%;
+    height: 1.2rem;
+    margin: 0 auto;
+    margin-top: 0.3rem
+}
+.AccountPic img{
+    width: 100%;
+    height: 1.2rem;
+}
+.AccounthiddenInput{
+    display: none;
+    }
+.AccountLogo img{
+border-radius: 50%
+}

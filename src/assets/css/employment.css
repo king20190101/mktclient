@@ -1,0 +1,68 @@
+/*employment页面*/
+/*头部*/
+.employment{
+    font-size:0.28rem;
+    color:#878c91;
+}
+.employHeader {
+    width:100%;
+    display: flex;
+    height: 0.95rem;
+    align-items: center;
+    justify-content: space-between;
+    color: #2b333b;
+    font-size: 0.34rem;
+    font-weight: 600;
+    padding: 0 0.4rem;
+    position:fixed;
+    top:0;
+    z-index:10;
+    background-color:white;
+}
+.employHeader li:nth-child(3){
+    font-weight: normal;
+}
+/*中间部分*/
+.employmentMain{
+    padding:1.08rem 0.3rem 0;
+}
+.employmentJobsList{
+    padding:0.25rem 0.3rem;
+    border-radius: 0.1rem;
+    text-align: left;
+    margin-bottom:0.28rem;
+    box-shadow: 0px 0px 5px #f9f9f9;
+}
+.employmentJobsTit{
+    font-size:0.34rem;
+    font-weight:600;
+    color:#293139;
+}
+.employmentJobsDire{
+    display: flex;
+    justify-content: space-between;
+
+}
+.employmentJobsDire>p{
+    width:3.86rem;
+    flex:1;
+    padding-top:0.1rem;
+    line-height:0.37rem;
+}
+.employmentJobsDire>img{
+    display: inline-block;
+    width:1.95rem;
+    height:1.9rem;
+    margin-left:0.5rem;
+}
+.employmentJobsCourse{
+    align-items: center;
+}
+.employmentJobsCourse>s{
+    display: inline-block;
+    width:4px;
+    height:4px;
+    background-color:#878c91;
+    margin:0 0.18rem;
+
+}

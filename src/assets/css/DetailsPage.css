@@ -1,0 +1,229 @@
+
+/* 导航栏部分 */
+.headers{
+    width: 100%;
+    height: .9rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;;
+    top: 0;
+    left: 0;
+    background: #ffffff;
+}
+.headers>span{
+    font-size:0.4rem;
+}
+.headers i{
+    font-size:0.38rem;
+    color: black;
+}
+.headers img{
+    width: .5rem;
+    height: .46rem;
+}
+.words{
+    font-size: .28rem;
+}
+
+.wordsclick{
+    display: flex;
+    color: #da8d00;
+    position: relative;
+    top:0;
+    left: 0;
+}
+.wordsclick .wordsspan{
+    display: block;
+    width: .17rem;
+    height: .07rem;
+    background: #da8d00;
+    text-align: center;
+    position: absolute;
+    top:.45rem;
+    left:.15rem;
+}
+
+
+/* 实战课程 */
+.tit{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 1.3rem;
+}
+.subject{
+    width: 1.66rem;
+    height: .6rem;
+    border-radius: .3rem;
+    background: #da8d00;
+    font-size: .28rem;
+    line-height: .6rem;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: .12rem;
+    margin-left: .08rem;
+}
+.SectionH1{
+    font-size: .5rem;
+    line-height: .7rem;
+    text-align: left;
+    letter-spacing:1px;
+    margin-bottom: .12rem;
+}
+.SectionP P{
+    font-size: .38rem;
+    line-height: .38rem;
+    letter-spacing:1px;
+    text-align: left;
+    font-weight: 500;
+    
+}
+
+.SectionPrice{
+    height: .84rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: .28rem;
+}
+
+.SectionPriceLeft{
+    font-size: .32rem;
+    color: #da8d00;
+}
+.SectionPriceRight{
+    display: flex;
+    font-size: .28rem;
+    color: #da8d00;
+}
+.SectionPriceRight i{
+    font-size: 0.4rem;
+    color: #fdd32f;
+}
+.Sectionimg img{
+    width: .42rem;
+    height: .42rem;
+    margin-left: .06rem;
+}
+.DetailsPageSectionimg{
+    display: block;
+    width: 100%;
+    height: 5rem;
+    margin-bottom: 1.08rem;
+}
+/* SectionBigBox */
+.SectionBigBox{
+    width: 100%;
+    height: 100%;
+    border-radius: .1rem;
+    background: #f5f6f8;
+    padding-left: .24rem;
+    padding-right: .21rem;
+    margin-bottom: .76rem;
+    margin-top: 0.2rem;
+}
+.SectionBoxone{
+    height: .8rem;
+    width: 100%;
+    line-height: .8rem;
+    font-size: .24rem;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    letter-spacing:1px;
+}
+.SectionBoxone-left{
+    display: flex;
+    width: 93%;
+    color: #494d4e;
+    align-items: center;
+    border-bottom: 1px solid #e1e4e9;
+}
+.SectionBoxone-span{
+    margin-right: .24rem;
+    display: block;
+    font-weight: 600;
+    font-size: .28rem;
+    color: #353535;
+}
+
+.SectionPayfor{
+    display: block;
+    width: 1.04rem;
+    height: .4rem;
+    line-height: .4rem;
+    color: #289cd4;
+    background: #cbf0ff;
+    border-radius: .2rem;
+    margin-right: .12rem;
+}
+.SectionBoxone-right{
+    width: .4rem;
+    height: .2rem;
+}
+.SectionBoxone-right img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* DetailsPageFooter */
+
+.DetailsPageFooter{
+    width: 100%;
+    height: 1.08rem;
+    display: flex;
+    background: #ffffff;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.DetailsPageFooterimg{
+    width: .8rem;
+}
+.DetailsPageFooterimg i{
+    font-size: .38rem;
+}
+.DetailsPageFooterimg img{
+    display: block;
+    width: .44rem;
+    height: .4rem;
+    margin: 0 auto;
+}
+.DetailsPageFooterimg span{
+    display: block;
+    font-size: .2rem;
+    letter-spacing:1px; 
+    line-height: .44rem;
+    text-align: center;
+}
+.DetailsPageFooterright{
+    display: flex;
+}
+.DetailsPageFooteradd{
+    height: .84rem;
+    width: 2.2rem;
+    background: #fdd32f;
+    border-radius: .4rem 0 0 .4rem;
+    color: #ffffff;
+    font-size: .28rem;
+    line-height: .84rem;
+}
+.DetailsPageFooterbuy{
+    height: .84rem;
+    width: 2.2rem;
+    background: #fe382e;
+    border-radius:0 .4rem .4rem 0;
+    color: #ffffff;
+    font-size: .28rem;
+    line-height: .84rem;
+}
+.dp1{
+    margin-top: 0.26rem;
+}
+.dp1,.dp2,.dp3,.dp4{
+    width: 100%;
+}

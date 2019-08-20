@@ -1,0 +1,136 @@
+.OrderHeader{
+    width: 100%;
+    height: 1.92rem;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+}
+.OrderHeader .first{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    line-height: 0.87rem;
+}
+.OrderHeader .first span{
+    font-size: 0.3rem
+}
+.OrderHeader .first i{
+    font-size: 0.4rem
+}
+.OrderHeader .second{
+     width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    line-height: 1.04rem;
+}
+.OrderHeader .second p{
+    font-size: 0.3rem;
+}
+.OrderHeader .second p:nth-child(1){
+    border-bottom: 0.05rem solid #ef0b0b;
+}
+.OrderHeader .second p:nth-child(2){
+    color: #72787e;
+}
+.OrderBlack{
+    height: 1.92rem;
+}
+.OrderPayment{
+    width: 90%;
+    height: 4rem;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 0.4rem;
+}
+.OrderPayment .number{
+    height: 0.79rem;
+    width: 100%;
+}
+.OrderPayment .number p{
+    font-size: 0.3rem;
+    color: #666d73;
+    line-height: 0.79rem;
+    text-align: left;
+    width: 90%;
+    margin: 0 auto;
+}
+.OrderPayment .price{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    height: 0.98rem;
+}
+.OrderPayment .price .first{
+    line-height: 0.98rem;
+    display: flex;
+    width: 50%;
+}
+.OrderPayment .price .first span{
+    font-size: 0.3rem;
+    color: #b0b4b8
+}
+.OrderPayment .price .first p{
+    font-size: 0.35rem;
+    color: #ef0808;
+}
+.OrderPayment .price .second{
+     line-height: 0.98rem;
+     width: 50%;
+}
+.OrderPayment .price .second p{
+    line-height: 0.58rem;
+     background-color: #f01414;
+     color: #fff;
+     border-radius: 0.1rem 0.1rem;
+} 
+.OrderShop{
+    width: 90%;
+    height: 2.23rem;
+    
+    
+    border-radius:0.1rem 0.1rem 0.1rem 0.1rem;
+    display: flex;
+    align-items: center;
+    
+}
+.OrderShop .border{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:  0 auto;
+    height: 1.53rem;
+    
+}
+
+.OrderShop .border .picture{
+    height: 1.53rem;
+    width: 33%;
+    
+}
+.OrderShop .border .picture img{
+    height: 100%;
+    width: 100%;
+}
+.OrderShop .border .text{
+    width: 44%;
+    line-height: 0.4rem;
+    text-align: left;
+    margin: 0 0.32rem;
+}
+.OrderShop .border .text p{
+    width: 42%;
+    color: #f22e2e;
+    font-size: 0.32rem;
+     text-align: left;
+} 
+.OrderShop .border .text span{
+    font-size: 0.3rem;
+    width: 60%;
+    text-align: left;
+} 
